@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Entrar(){return <main><header className="header"><Link className="logo" href="/">OMEGA</Link></header><section className="section"><div className="container"><div className="block"><h1>ÁREA DO PROFISSIONAL</h1><div className="grid"><div className="card">LOGIN</div><div className="card">CADASTRO</div><div className="card">PAINEL</div></div></div></div></section></main>}

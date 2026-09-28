@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default async function Cidade({params}:{params:Promise<{cidade:string}>}){const {cidade}=await params;return <main><header className="header"><Link className="logo" href="/">OMEGA</Link></header><section className="section"><div className="container"><h1>{cidade}</h1><div className="grid">{Array.from({length:6},(_,i)=><Link className="card" href={"/profissional/profissional-"+(i+1)} key={i}>PROFISSIONAL {i+1}</Link>)}</div></div></section></main>}

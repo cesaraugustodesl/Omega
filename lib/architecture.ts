@@ -1,0 +1,1 @@
+export const architecture={public:["/","/buscar","/servicos","/servicos/[servico]/[cidade]","/cidades","/cidades/[cidade]","/profissional/[slug]"],professional:["/entrar","/cadastro","/painel","/painel/perfil","/painel/leads","/painel/avaliacoes"],admin:["/admin","/admin/profissionais","/admin/servicos","/admin/cidades","/admin/leads","/admin/seo","/admin/analytics"]};

@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Cidades(){return <main><header className="header"><Link className="logo" href="/">OMEGA</Link></header><section className="section"><div className="container"><h1>CIDADES</h1><div className="grid">{Array.from({length:6},(_,i)=><Link className="card" key={i} href={"/cidades/cidade-"+(i+1)}>CIDADE {i+1}</Link>)}</div></div></section></main>}

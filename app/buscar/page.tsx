@@ -1,0 +1,3 @@
+import Link from "next/link";
+const items=["profissional-exemplo","profissional-exemplo-2"];
+export default function Buscar(){return <main><header className="header"><Link className="logo" href="/">OMEGA</Link></header><section className="section"><div className="container"><h1>BUSCA</h1><div className="grid">{items.map(x=><Link className="card" href={"/profissional/"+x} key={x}>PROFISSIONAL</Link>)}</div></div></section></main>}
